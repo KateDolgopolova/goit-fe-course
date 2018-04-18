@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Journal Page</title>
+    <style>
+        .AllArticlesConteiner {
+            margin: auto;
+            display: flex;
+            width: 1040px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            background-color: white;
+
+        }
+
+        .ArticleContiner {
+            width: 470px;
+            margin-left: 30px;
+            margin-right: 20px;
+            background-color: white;
+            margin-top: 10px;
+
+            text-align: justify;
+
+        }
+
+        li {
+            display: inline-block;
+            height: 11px;
+            padding: 5px 0 0 0px;
+            margin: 10px;
+        }
+
+        .headerFlexContainer {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style-type: "none";
+        }
+
+
+        .Button {
+            margin: auto;
+        }
+
+        .btnwrap {
+            width: 100%;
+            display: none;
+        }
+
+        .header {
+            width: 600px;
+            display: flex;
+            margin: auto;
+            text-transform: uppercase;
+        }
+
+        .notCurrent {
+            text-decoration: none;
+            color: black;
+        }
+
+        .current {
+            text-decoration: none;
+            color: blue;
+        }
+
+        .btnCont {
+            width: 100px;
+            height: 40px;
+            border: black;
+            border-width: 1px;
+            display: flex;
+            border-style: solid;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        .btnText {
+            align-content: center;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .ArticleTitleGrey{
+            color: gray;
+        }
+        .ArticleTitle{
+
+        }
+
+        .ArticleText{
+
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <ul class="headerFlexContainer">
+            <li class="menuFlexItem"><a href="#" class="current">Lifestyle</a></li>
+            <li><a href="#" class="notCurrent">Photography</a></li>
+            <li><a href="#" class="notCurrent">Music</a></li>
+            <li><a href="#" class="notCurrent">Travel</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="AllArticlesConteiner">
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Fest.png" alt="Fest">
+        <h4 class="ArticleTitleGrey">Lifestyle</h4>
+        <h2 class="ArticleTitle">More than just a musical festival</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+    </div>
+
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Coffee.png" alt="Coffee">
+        <h4 class="ArticleTitleGrey">Lifestyle</h4>
+        <h2 class="ArticleTitle">Life tastes better with coffee</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+    </div>
+
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Bridge.png" alt="Bridge">
+        <h4 class="ArticleTitleGrey">Photography</h4>
+        <h2 class="ArticleTitle">American dream</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever since
+        the 1500s, when an
+        unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.</p>
+    </div>
+
+
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Man.png" alt="Guy">
+        <h4 class="ArticleTitleGrey">Photography</h4>
+        <h2 class="ArticleTitle">A day exploring the Alps</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.</p>
+
+    </div>
+
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Hat.png" alt="SummerHat">
+        <h4 class="ArticleTitleGrey">Lifestyle</h4>
+        <h2 class="ArticleTitle">Top 10 songs to running</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.</p>
+    </div>
+
+    <div class="ArticleContiner">
+        <img class="ArticleImage" src="img/Road.png" alt="Road">
+        <h4 class="ArticleTitleGrey">Lifestyle</h4>
+        <h2 class="ArticleTitle">Cold winter days</h2>
+        <p class="ArticleText">Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.</p>
+
+    </div>
+
+
+</div>
+<footer>
+    <div class="btnCont">
+        <div class="btnText">Load moar</div>
+    </div>
+</footer>
+</body>
+</html>
