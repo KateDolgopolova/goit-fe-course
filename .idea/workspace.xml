@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63b6fb47-81c1-405a-ae5e-583e9bd01396" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/homework-03/styles/journal.css" afterPath="$PROJECT_DIR$/homework-03/styles/journal.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,22 +104,6 @@
             <path>
               <item name="goit-fe-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="goit-fe-course" type="462c0819:PsiDirectoryNode" />
-              <item name="homework-01-02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goit-fe-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goit-fe-course" type="462c0819:PsiDirectoryNode" />
-              <item name="homework-03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goit-fe-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goit-fe-course" type="462c0819:PsiDirectoryNode" />
-              <item name="homework-03" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goit-fe-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goit-fe-course" type="462c0819:PsiDirectoryNode" />
               <item name="homework-04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -171,7 +154,7 @@
       <updated>1524044975867</updated>
       <workItem from="1524044977289" duration="878000" />
       <workItem from="1524423941814" duration="22747000" />
-      <workItem from="1525637314944" duration="31274000" />
+      <workItem from="1525637314944" duration="31352000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1524045260693</created>
@@ -194,17 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1524585823260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1525944237566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525944237566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54899000" />
+    <option name="totallyTimeSpent" value="54977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17017913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17017913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
