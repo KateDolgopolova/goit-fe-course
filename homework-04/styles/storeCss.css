@@ -5,17 +5,15 @@
     font-family: 'Myriad Pro', serif;
 }
 .wrapper{
-    width: 1170px;
+    width: 1110px;
     margin: 0 auto 0;
     text-transform: uppercase;
-    padding: 10px 0 15px;
 }
 .header{
-    width: 1170px;
-    margin: 50px 30px 85px ;
-    font-size: 15px;
-    padding-bottom: 108px;
-}
+    width: 1110px;
+    margin: 43px 0 110px ;
+    font-size: 18px;
+    }
 a{
     text-decoration: none;
     color: #515151;
@@ -32,18 +30,18 @@ a{
 }
 ul{
     list-style-type: none;
-    display: inline;
 }
-li{
+li.menuItem{
     display: block;
+    font-weight: bold;
     text-align: center;
-    margin: 0 28px 0;
+    padding-right: 34px;
     float: left;
 }
-li:last-child{
-    margin: 0;
+li.menuItem:last-child{
+    padding-right: 0;
 }
-li:hover{
+li.menuItem:hover{
     color: #1abc9c;
 }
 .clearfix::after {
@@ -54,17 +52,15 @@ li:hover{
 h2{
     width: 600px;
     display: block;
-    margin-left: 25%;
-    margin-right: 50%;
+   text-align: center;
     margin-bottom: 135px;
     font-size: 48px;
     color: #515151;
-    font-size: 48px;
-    color: #515151;
+    margin: auto;
 }
 h2::after{
     display: block;
-    content: '';
+    content: '\A';
     background-color: #1abc9c;
     margin: 34px auto 92px;
     width: 160px;
@@ -76,6 +72,8 @@ h2::after{
     margin: auto;
 }
 .productItem{
+    font-size: 18px;
+    font-family: Roboto black;
     display: block;
     width: 255px;
     height: 323px;
@@ -93,23 +91,10 @@ h2::after{
 }
 .botArticleContainer{
     display: block;
-    width: 1140px;
-    margin: auto;
+    width: 1110px;
     text-transform: capitalize;
 }
-.article{
-    display: block;
-    width: 325px;
-    height: 441px;
-    float: left;
-    margin: 4px 30px 34px 23px;
-    padding-right: 30px;
-}
-.clearfix::after{
-    content: " ";
-    display: table;
-    clear: both;
-}
+
 nav{
     margin-left: 480px;
 }
@@ -147,12 +132,11 @@ h4::after{
     display: block;
     width: 200px;
     height: 40px;
-    border: 1px solid #515151;
     float: left;
     background-color: #515151;
     color: #ffffff;
-    padding-left: 16px;
-    line-height: 30px;
+    text-align: center;
+    padding-top: 4%;
 
 }
 .clearfix::after{
@@ -164,20 +148,48 @@ h4::after{
     display: inline-block;
     height: 40px;
     width: 55px;
-    border: 1px solid #515151;
     float: left;
     background-color: #515151;
     opacity: 0.5;
     color: #ffffff;
-    padding-left: 16px;
-    line-height: 30px;
+    padding-top: 4%;
+    text-align: center;
+}
+.productItem:hover>.price {
+    background-color: #1abc9c;
+    opacity: 0.5;
 }
 .productsName:hover{
     background-color: #1abc9c;
 }
-.price:hover{
-    background-color: #1abc9c;
-    opacity: 0.5;
+.botItem{
+    display: block;
+    float: left;
+    width: 370px;
+    padding-right: 30px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.botItem:last-child{
+    margin-right: 0;
+}
+.botImage{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 370px;
+    margin-bottom: 5px;
+}
+.button{
+    font-family: Open Sans, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
 }
 
 
