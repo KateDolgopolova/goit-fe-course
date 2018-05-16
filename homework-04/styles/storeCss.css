@@ -20,28 +20,31 @@ a{
 }
 
 .logo{
+    font-family: 'Roboto', sans-serif;
     display: block;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: lighter;
     float: left;
 }
 .logo::first-letter{
     color: #1abc9c;
+    font-weight: bold;
 }
 ul{
     list-style-type: none;
+    float: right;
 }
 li.menuItem{
-    display: block;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    text-align: center;
+    display: inline;
     padding-right: 34px;
-    float: left;
 }
+
 li.menuItem:last-child{
     padding-right: 0;
 }
-li.menuItem:hover{
+li.menuItem:hover > a{
     color: #1abc9c;
 }
 .clearfix::after {
@@ -53,12 +56,15 @@ h2{
     width: 600px;
     display: block;
    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
     margin-bottom: 135px;
     font-size: 48px;
-    color: #515151;
+    color: #555252;
     margin: auto;
 }
 h2::after{
+
     display: block;
     content: '\A';
     background-color: #1abc9c;
@@ -86,6 +92,8 @@ h2::after{
     display: block;
 }
 .productItem1{
+
+    font-weight: bold;
     float: right;
     display: block;
 }
@@ -93,6 +101,12 @@ h2::after{
     display: block;
     width: 1110px;
     text-transform: capitalize;
+}
+.textBot{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #515151;
+}
 }
 
 nav{
@@ -104,9 +118,10 @@ nav{
     margin-top: -15px;
 }
 h4{
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    color: #515151;
+    font-size: 18px;
+    color: #555252;
 }
 h4::after{
     display: block;
@@ -120,7 +135,7 @@ h4::after{
 .button{
     width: 160px;
     height: 50px;
-    margin: 21px 0 20px;
+    margin: 17px 0 20px;
 
     background-color: #1abc9c;
     border: 2px solid #1abc9c;
@@ -129,6 +144,8 @@ h4::after{
     line-height: 35px;
 }
 .productsName{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     display: block;
     width: 200px;
     height: 40px;
@@ -145,6 +162,8 @@ h4::after{
     clear: both;
 }
 .price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     display: inline-block;
     height: 40px;
     width: 55px;
@@ -159,7 +178,7 @@ h4::after{
     background-color: #1abc9c;
     opacity: 0.5;
 }
-.productsName:hover{
+.productItem:hover>.productsName{
     background-color: #1abc9c;
 }
 .botItem{
@@ -181,7 +200,7 @@ h4::after{
     max-width: 100%;
     height: auto;
     width: 370px;
-    margin-bottom: 5px;
+    margin-bottom: 18px;
 }
 .button{
     font-family: Open Sans, sans-serif;
@@ -191,5 +210,15 @@ h4::after{
     cursor: pointer;
 
 }
-
+.textBot{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #515151;
+}
+.storeItem{
+    float: left;
+}
+.botArticle{
+    float: left;
+}
 
