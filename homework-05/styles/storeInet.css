@@ -4,9 +4,14 @@
     box-sizing: border-box;
     text-transform: uppercase;
 }
+
+body{
+    text-align: center;
+    background-color: #e9f0fd;
+}
 .header{
     width: 1110px;
-    margin: 40px 245px 0;
+    margin-top: 40px;
 }
 a{
     text-decoration: none;
@@ -122,17 +127,13 @@ nav{
     background-color: #1abc9c;
 }
 .products{
-    background: #c3d4f2;
     width: 1110px;
-    margin: 40px 0;
-    margin-left: 245px;
-
 }
-.overlay{
+.overlayBackground{
     content: '';
     position: absolute;
-    width: 235px;
-    height: 261px;
+    width: 255px;
+    height: 282px;
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
@@ -140,26 +141,192 @@ nav{
     opacity: 0;
 
 }
-.imageItem:hover .overlay{
-    opacity: 0.549;
+
+
+.overlayContainer{
+
 }
+
+.overlayContainer:hover .overlayBackground {
+    opacity: 0.549;
+    background-color: black;
+}
+
+.overlayContainer:hover .overlayContent {
+    opacity: 1;
+}
+
+.overlayContent{
+font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    opacity: 0;
+}
+
 .banner{
     width: 1600px;
 }
 .botContent{
-    width: 1600px;
-    margin: 100px  0;
-    margin-left: 245px;
+    width: 100%;
+    height: 90px;
+    background-color: #323232;
+    display: inline-block;
+    text-align: center;
+
 }
 .contactInformation{
+    text-transform: none;
     width: 1110px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 5;
 }
 .contextSite{
-    margin-left: 245px;
+    margin-left: 0px;
 }
 .Item{
     width: 1110px;
 
+}
+.iconBord{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    font-size: 34px;
+    text-align: center;
+    line-height: 50px;
+}
+.iconBord:first-child{
+    margin-left: 50px;
+}
+.iconBord:last-child{
+    margin-right: 35px;
+}
+.iconBig{
+    display: block;
+    width: 165px;
+    height: 50px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(50, 50, 50);
+    float: left;
+    margin: 0 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+.iconBord:hover{
+    background-color: #1abc9c;
+    border: #1abc9c;
+}
+.iconBig:hover{
+    background-color: #1abc9c;
+    border: #1abc9c;
+}
+.wrapperHeader{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+.containerHeader, .containerMain{
+    width: 1110px;
+    margin: 0 auto 20px;
+}
+.containerBan, .containerBottom{
+    margin-top: 100px;
+}
+.mainFooterContainer{
+    text-align: center;
+    margin-top: 100px;
+
+    width: 100%;
+    height: 90px;
+    background-color: #323232;
+    display: inline-block;
+    text-align: center;
+
+
+}
+.wrapperMain{
+    background-color: #e9f0fd;
+    width: 1110px;
+    margin: 50px auto;
+}
+.containerBan{
+    background-size: cover;
+    min-height: 600px;
+    background-image: url("../img/slide4.png");
+    width: 100%;
+    margin-top: -1px;
+    padding-top: 100px;
+}
+.bannerLink{
+    font-family: "Roboto Black", sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-top: 150px;
+}
+.bannerText{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 28px;
+}
+.buttonLeft::before{
+    content: "\2039";
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+
+}
+.buttonRight::after{
+    content: "\203a";
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.buttonLeft, .buttonRight{
+    display: inline-block;
+    height: 104px;
+    width: 104px;
+    background-color: #1abc9c;
+    line-height: 84px;
+}
+
+.buttonLeft {
+    margin-right: 100px;
+}
+
+.buttonRight {
+    margin-left: 100px;
+}
+
+.containerBannerText{
+    display: inline-block;
+    text-align: left;
+}
+.nameDesigner{
+    text-transform: none;
+    color: #1abc9c;
+}
+.wrapperBottom{
+    width: 1600px;
+}
+.clothes{
+    background-color: #e9f0fd;
 }
 
 
