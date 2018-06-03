@@ -1,0 +1,46 @@
+.list-of-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicePlate{
+    /* TODO fix this flex width */
+    width: 325px;
+    display: flex;
+    margin-bottom: 102px;
+    justify-content: space-around;
+
+}
+.serviseSectionTitle{
+    margin: 0px auto 67px;;
+}
+.serviceDescribe{
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+.serviceText{
+    text-transform: capitalize;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 15px;
+    color: #999999;
+
+}
+.Service-logo{
+    width: 32px;
+    height: 32px;
+
+}
+.Service-content{
+    width: 210px;
+}
+.serviseSectionTitle::after{
+    display: block;
+    content: '\A';
+    background-color: #f38181;
+    height: 5px;
+    width: 60px;
+    margin:13px auto 0;
+
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1201px;
+    margin: auto;
+    background-color: #ffffff;
+}
+.services-h3,.title-h3{
+    margin: 60px auto 25px;
+    text-transform: capitalize;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+}
+.services-h2, .title-h2{
+    text-transform: uppercase;
+    font-family: "Montserrat Black", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
