@@ -4,7 +4,9 @@
     width: 1201px;
     height: 63px;
     align-items: center;
+    border-top: 1px solid #e5e5e5;
 }
+
 .footer-span{
     font-family: Montserrat, sans-serif;
     font-size: 14px;

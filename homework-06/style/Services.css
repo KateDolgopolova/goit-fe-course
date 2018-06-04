@@ -16,13 +16,15 @@
 }
 .serviceDescribe{
     text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: #333333;
 }
 .serviceText{
     text-transform: capitalize;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
     font-size: 15px;
     color: #999999;
 

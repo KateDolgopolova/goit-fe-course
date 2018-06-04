@@ -3,6 +3,7 @@
     height: 545px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 84px;
 
 }
 
@@ -108,6 +109,16 @@
     transition-timing-function: linear;
     background-color: #95e1d3;
     opacity: 1;
+    box-shadow:
+            1px 1px #1abc9c,
+            2px 2px #1abc9c,
+            3px 3px #1abc9c,
+            4px 4px #1abc9c,
+            5px 5px #1abc9c,
+            6px 6px #1abc9c,
+            7px 7px #1abc9c;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
 }
 .overlayIcons{
     position: absolute;
