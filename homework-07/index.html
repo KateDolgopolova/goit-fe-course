@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(../fonts/montserrat-v12-latin-regular.woff2)format('woff2');
+        }
+        /* montserrat-700 - latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(../fonts/montserrat-v12-latin-700.woff2)format('woff2');
+        }
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            src: url(../fonts/roboto-slab-v7-latin-regular.woff)format('woff');
+        }
+        </style>
+        <style>
+        @import "styles/Main.css";
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container-services">
+        <header class="header">
+            <span class="logo">golden</span>
+            <nav>
+                <ul class="menu">
+                    <li class="menu-Item"><a class="menu-Item-Link" href="#">home</a></li>
+                    <li class="menu-Item"><a class="menu-Item-Link" href="#">services</a></li>
+                    <li class="menu-Item"><a class="menu-Item-Link" href="#">portfolio</a></li>
+                    <li class="menu-Item"><a class="menu-Item-Link" href="#">about</a></li>
+                    <li class="menu-Item"><a class="menu-Item-Link" href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="services-part">
+                <div class="title-container">
+                    <h2 class="title title-main">services</h2>
+                    <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+                </div>
+                <div class="services-list">
+                    <div class="services-list-container">
+                        <img class="services-image" src="img/backet.png" width="74" height="73">
+                        <div class="service-content">
+                            <span class="services-item-title">E-Commerce</span>
+                            <p class="services-describe">Proin iaculis purus consequat sem cure
+                                digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.</p>
+                        </div>
+                    </div>
+                    <div class="services-list-container">
+                        <img class="services-image" src="img/clock.png" width="74" height="73">
+                        <div class="service-content">
+                            <span class="services-item-title">Responsive Web</span>
+                            <p class="services-describe">Proin iaculis purus consequat sem cure
+                                digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.</p>
+                        </div>
+                    </div>
+                    <div class="services-list-container">
+                        <img class="services-image" src="img/lock.png" width="74" height="73">
+                        <div class="service-content">
+                            <span class="services-item-title">Web Security</span>
+                            <p class="services-describe">Proin iaculis purus consequat sem cure
+                                digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="wrapper-footer">
+        <div class="container-footer">
+            <section class="contact-us">
+                <div class="title-container-footer">
+                    <h2 class="title title-footer">contact us</h2>
+                    <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+                </div>
+                <div class="forms-list">
+                    <form class="contact-form" action="#">
+                        <div class="flex-footer-container">
+                            <div class="flex-direction">
+                            <div class="flex-fields">
+                        <input class="field" type="text" name="name" placeholder="Your name*" required autocomplete="off">
+                        <input class="field" type="email" name="e-mail" placeholder="Your e-mail*" required autocomplete="off">
+                        <input class="field" type="text" name="subject" placeholder="Subject" >
+                            </div>
+                                <textarea class="textarea" name="message" placeholder="Your message*" required></textarea>
+                            </div>
+                        <button class="btn" type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin-bottom: 126px;
+    margin-top: 40px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 485px;
+
+}
+.menu-Item-Link{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #222222;
+
+}
+.logo{
+    text-transform: capitalize;
+    width: 85px;
+    font-family: 'Rouge Script', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: #fed136;
+
+}
+.menu-Item-Link:hover{
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    color: #fed136;
+}

@@ -1,0 +1,88 @@
+.container-footer{
+    width: 1400px;
+    padding-bottom: 144px;
+    background-image: url("../img/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title-footer{
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+.title-container-footer{
+    padding-top: 108px;
+}
+.forms-list{
+    width: 940px;
+    margin: auto;
+
+}
+.contact-form input [type = 'text']{
+    width: 455px;
+    height: 55px;
+}
+.flex-footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 940px;
+    height: 310px;
+}
+.flex-direction{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn{
+    display: inline-block;
+    width: 241px;
+    height: 67px;
+    align-self: center;
+    background-color: #fed136;
+    border: 1px solid #fed136;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+.field{
+    width: 455px;
+    height: 53px;
+}
+.textarea{
+    width: 455px;
+    height: 212px;
+    padding-top: 20px;
+}
+input:required:valid{
+    outline-color: green;
+    outline-width: 1px;
+}
+input:required:invalid{
+    outline-color: red;
+    outline-width: 1px;
+}
+textarea:required:valid{
+    outline-color: green;
+    outline-width: 1px;
+}
+textarea:required:invalid{
+    outline-color: red;
+    outline-width: 1px;
+}
+.field, .textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #bbbbbb;
+    padding-left: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
