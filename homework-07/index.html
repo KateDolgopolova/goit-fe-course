@@ -5,30 +5,7 @@
     <title>Contact Page</title>
     <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
-    <style>
-        @font-face {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            src: url(../fonts/montserrat-v12-latin-regular.woff2)format('woff2');
-        }
-        /* montserrat-700 - latin */
-        @font-face {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            src: url(../fonts/montserrat-v12-latin-700.woff2)format('woff2');
-        }
-        @font-face {
-            font-family: 'Roboto Slab';
-            font-style: normal;
-            font-weight: 400;
-            src: url(../fonts/roboto-slab-v7-latin-regular.woff)format('woff');
-        }
-        </style>
-        <style>
-        @import "styles/Main.css";
-    </style>
+    <link rel="stylesheet" href="styles/Main.css">
 </head>
 <body>
 <div class="wrapper">
@@ -101,7 +78,7 @@
                             </div>
                                 <textarea class="textarea" name="message" placeholder="Your message*" required></textarea>
                             </div>
-                        <button class="btn" type="submit">Send message</button>
+                        <button class="btn" formmethod="post" formaction="#" type="submit">Send message</button>
                         </div>
                     </form>
                 </div>

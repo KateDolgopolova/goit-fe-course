@@ -1,11 +1,13 @@
 .container-footer{
-    width: 1400px;
+    width: 100vw;
     padding-bottom: 144px;
     background-image: url("../img/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    position: absolute;
+    left: 0;
 }
 .title-footer{
     color: #ffffff;
@@ -51,6 +53,7 @@
     font-weight: bold;
     font-size: 18px;
     color: #ffffff;
+    cursor: pointer;
 }
 .field{
     width: 455px;
