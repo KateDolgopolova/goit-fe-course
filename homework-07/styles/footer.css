@@ -1,13 +1,10 @@
-.container-footer{
-    width: 100vw;
+.container-footer {
     padding-bottom: 144px;
     background-image: url("../img/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    position: absolute;
-    left: 0;
 }
 .title-footer{
     color: #ffffff;

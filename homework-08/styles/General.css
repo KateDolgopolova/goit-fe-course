@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    min-width: 90rem;
+}
+.wrapper-team{
+    width: 58rem;
+    margin: auto;
+}
+.container-main-information{
+    width: 100vw;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 2rem;
+    padding-left: 5.125rem;
+
+}
+img{
+    display: block;
+    height: auto;
+}

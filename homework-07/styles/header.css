@@ -1,11 +1,11 @@
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    width: 1400px;
-    margin-bottom: 126px;
-    margin-top: 40px;
-}
+     display: flex;
+     justify-content: space-between;
+     width: 1400px;
+     margin-bottom: 126px;
+     margin-top: 40px;
+ }
 .menu {
     display: flex;
     justify-content: space-between;
