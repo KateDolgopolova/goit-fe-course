@@ -1,9 +1,9 @@
 .wrapper-team{
     margin: auto;
-    padding-left: 2rem;
+
     padding-top: 4.375rem;
     padding-bottom: 4.375rem;
-    width: 90rem;
+    width: 20rem;
 }
 .team-image-container{
     width: 7.5rem;
@@ -21,8 +21,6 @@
     font-weight: bold;
     font-size: 1.375rem;
     color: #333333;
-
-
 }
 .person-logo{
     position: absolute;
@@ -34,11 +32,13 @@
 }
 .team-part{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding-bottom: 2.5rem;
 }
 .team-item{
-    width: 14rem;
+    width: 13.75rem;
+    margin: auto;
 }
 .person-title{
     text-align: center;
@@ -59,7 +59,7 @@
     line-height: 1.3rem;
 }
 .btn-team{
-    width: 14rem;
+    width: 17.5625rem;
     height: 2.5rem;
     display: block;
     margin: auto;
