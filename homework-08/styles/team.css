@@ -1,6 +1,5 @@
 .wrapper-team{
     margin: auto;
-
     padding-top: 4.375rem;
     padding-bottom: 4.375rem;
     width: 20rem;
@@ -37,7 +36,7 @@
     padding-bottom: 2.5rem;
 }
 .team-item{
-    width: 13.75rem;
+    width: 13.68rem;
     margin: auto;
 }
 .person-title{
@@ -63,8 +62,8 @@
     height: 2.5rem;
     display: block;
     margin: auto;
-    background-color: #ffffff;
-    color: #ff4e50;
+    background-color: #ff4e50;
+    color: #ffffff;
     border: 2px solid #ff4e50;
     border-radius: 22px;
     font-family: 'Montserat Bold', sans-serif;

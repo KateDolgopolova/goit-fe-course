@@ -1,37 +1,46 @@
-@media (min-width: 321px) and (max-width: 768px){
-    .wrapper, .wrapper-team{
-        width: 48rem;
+@media (min-width: 768px) and (max-width: 960px) {
+    .wrapper, .wrapper-team {
+        min-width: 47rem;
+        max-width: 59rem;
     }
-    .header{
-        width: 48rem;
+
+    .header {
+        min-width: 47rem;
+        max-width: 59rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin-bottom: 6rem;
         margin-top: 1.7rem;
     }
-    .menu{
+
+    .menu {
         width: 9rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding-bottom: 0;
     }
-    .team-part{
+
+    .team-part {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .team-item{
+
+    .team-item {
         width: 20rem;
     }
 }
-@media (min-width:769px) {
-    .wrapper{
+
+@media (min-width: 961px) {
+    .wrapper .wrapper-team {
+        min-width: 59rem;
         margin: auto;
 
     }
-    .header{
+
+    .header {
         width: auto;
         display: flex;
         flex-direction: row;
@@ -39,36 +48,50 @@
         margin-bottom: 10rem;
         margin-top: 1.7rem;
     }
-    .menu{
+
+    .menu {
         width: 12rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding-bottom: 0;
     }
-    .menu-Item-Link:hover{
+
+    .menu-Item-Link:hover {
         transition-property: color, border-bottom-color;
         transition-duration: 200ms;
         transition-timing-function: linear;
         border: 2px solid #ffffff;
-        border-radius:15px;
+        border-radius: 15px;
     }
-    .team-part{
+
+    .team-part {
         display: flex;
         width: auto;
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    .team-item{
+
+    .team-item {
         width: 13.75rem;
         margin: 0;
     }
-    .wrapper-team{
-        width: 60rem;
+
+    .wrapper-team {
+        width: 59rem;
     }
-    .site-title{
+
+    .site-title {
         font-size: 3.23rem;
         line-height: 3;
+    }
+    .btn:hover, .btn-team:hover{
+        transition-property: color, border-bottom-color;
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+        background-color: #ffffff;
+        color: #ff4e50;
+
     }
 }
