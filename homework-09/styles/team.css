@@ -1,0 +1,77 @@
+.container-team{
+    margin: auto;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+}
+.team-image-container{
+    width: 7.5rem;
+    height: 7.5rem;
+    position: relative;
+    padding-bottom: 1.5rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.3rem;
+}
+.team-title{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.375rem;
+    color: #333333;
+}
+.person-logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.person-photo{
+    position: relative;
+}
+.team-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+}
+.team-item{
+    width: 13.68rem;
+    margin: auto;
+}
+.person-title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #333333;
+    display: block;
+}
+.person-text{
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #666666;
+    display: block;
+    text-align: center;
+    line-height: 1.3rem;
+}
+.btn-team{
+    width: 17.5625rem;
+    height: 2.5rem;
+    display: block;
+    margin: auto;
+    background-color: #ff4e50;
+    color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 22px;
+    font-family: 'Montserat Bold', sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+
