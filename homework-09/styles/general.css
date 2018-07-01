@@ -38,8 +38,9 @@ a{
     margin-right: -15px;
     margin-left: -15px;
 }
-
-
+.justify-content-lg-between, .justify-content-sm-between{
+    justify-content: space-between;
+}
 
 img{
     display: block;

@@ -1,4 +1,4 @@
-.container-team{
+.team{
     margin: auto;
     padding-top: 4.375rem;
     padding-bottom: 4.375rem;
@@ -56,22 +56,4 @@
     text-align: center;
     line-height: 1.3rem;
 }
-.btn-team{
-    width: 17.5625rem;
-    height: 2.5rem;
-    display: block;
-    margin: auto;
-    background-color: #ff4e50;
-    color: #ffffff;
-    border: 2px solid #ff4e50;
-    border-radius: 22px;
-    font-family: 'Montserat Bold', sans-serif;
-    font-weight: bold;
-    font-size: 0.875rem;
-    cursor: pointer;
-}
-.justify-content-center{
-    justify-content: center;
-}
-
 
