@@ -78,7 +78,7 @@
 
     .header {
         width: auto;
-        height: 80%;
+        height: 40%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -95,7 +95,7 @@
     }
 
     .menu-Item-Link.signup{
-        border: none;
+        border-color: transparent;
     }
 
     .menu-Item-Link:hover {
@@ -146,4 +146,11 @@
         color: #ff4e50;
 
     }
+}
+@media (max-width: 576px) and  (max-width: 767px){
+    .logo{
+        margin: 0;
+        padding: 0;
+    }
+    
 }

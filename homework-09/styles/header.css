@@ -25,6 +25,11 @@
     border-color: transparent;
 }
 
+.menu-Item-Link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .menu-Item-Link.signup{
     border: 2px solid;
     border-radius: 15px;
@@ -55,6 +60,10 @@
 }
 .site-title-container{
     padding: 0;
+}
+.a:hover{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .site-subtitle {
