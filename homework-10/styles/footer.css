@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1201px;
+    height: 63px;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-span{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #333333;
+
+}
+.footer-green{
+    color: #f38181 ;
+}
+.footer-email{
+    display: flex;
+    width: 380px;
+}
+.Mail-input{
+    width: 230px;
+    height: 40px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: #95e1d3;
+
+}
