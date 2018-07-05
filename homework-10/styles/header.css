@@ -1,0 +1,97 @@
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container-header-banner{
+    background: url("../img/Banner.jpg");
+   display: flex;
+    flex-direction: column;
+    min-width: 1920px;
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+
+}
+.menu-Item-Link{
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu-Item-Link:hover{
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    color: #fce38a;
+}
+
+.menu-Item:hover::after{
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    display: block;
+    content: '\A';
+    background-color: #fce38a;
+    margin-top: 13px;
+    height: 3px;
+    width: inherit;
+}
+
+.menu-item-wrap{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    min-height: 114px;
+    align-items: center;
+}
+.logo{
+    line-height: 125px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+.title-banner-container{
+    margin: auto;
+}
+.banner-subtitle{
+    font-family: "Kunstler Script", sans-serif;
+    color: #ffffff;
+    font-size: 72px;
+    text-align: center;
+}
+.banner-title{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 150px;
+    text-align: center;
+}
+.btn-banner{
+    display: block;
+    margin: auto;
+    width: 164px;
+    height: 44px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+

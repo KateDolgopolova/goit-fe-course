@@ -1,0 +1,51 @@
+.container-main{
+    width: 1201px;
+    margin: auto;
+}
+.list-of-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicePlate{
+    width: 32%;
+    display: flex;
+    margin-bottom: 102px;
+    justify-content: space-around;
+
+}
+.serviseSectionTitle{
+    margin: 0 auto 67px;;
+}
+.serviceDescribe{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+}
+.serviceText{
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #999999;
+
+}
+.Service-logo{
+    width: 32px;
+    height: 32px;
+
+}
+.Service-content{
+    width: 210px;
+}
+.serviseSectionTitle::after{
+    display: block;
+    content: '\A';
+    background-color: #f38181;
+    height: 5px;
+    width: 60px;
+    margin: 13px auto 0;
+
+}

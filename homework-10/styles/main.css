@@ -1,3 +1,7 @@
 @import "normalize.css";
+@import "media.css";
 @import "general.css";
 @import "header.css";
+@import "services.css";
+@import "team.css";
+@import "footer.css";

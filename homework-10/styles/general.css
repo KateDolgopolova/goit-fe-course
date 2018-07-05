@@ -16,8 +16,28 @@ ul {
 a{
     text-decoration: none;
 }
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 .wrapper{
-    width: 75rem;
+    width: 1920px;
     margin: auto;
     background-color: #ffffff;
+}
+.services-h3,.title-h3{
+    margin: 60px auto 25px;
+    text-transform: capitalize;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+}
+.services-h2, .title-h2{
+    text-transform: uppercase;
+    font-family: "Montserrat Black", sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
